@@ -5,19 +5,20 @@ This repository provides a ready-to-use prompt that configures Claude Code with 
 ## What This Does
 
 Sets up two types of notifications:
-- **Permission notifications** (=): When Claude needs your permission to proceed
-- **Completion notifications** (): When Claude finishes working on a task
+- **Permission notifications**: When Claude needs your permission to proceed
+- **Completion notifications**: When Claude finishes working on a task
 
 ## How to Use
 
 1. **Copy the prompt URL**: Copy this GitHub raw URL:
    ```
-   https://raw.githubusercontent.com/[username]/claude-code-notifier-setup/main/prompt.md
+   https://github.com/3rd-Musketeer/claude-code-notifier-setup/blob/main/prompt.md
    ```
 
 2. **Use with Claude Code**: In your Claude Code terminal, reference the prompt:
    ```bash
-   claude @https://raw.githubusercontent.com/[username]/claude-code-notifier-setup/main/prompt.md
+   claude # start claude code
+   # paste the url as the instruction
    ```
 
 3. **Follow Claude's guidance**: Claude will walk you through:
@@ -42,7 +43,7 @@ Once configured, you'll receive:
 
 ## Troubleshooting
 
-- **No notifications appearing**: Check System Preferences ’ Notifications ’ terminal-notifier
+- **No notifications appearing**: Check System Preferences â€™ Notifications â€™ terminal-notifier
 - **Permission issues**: Ensure terminal-notifier has notification permissions
 - **Hooks not working**: Restart Claude Code with `claude -c`
 
