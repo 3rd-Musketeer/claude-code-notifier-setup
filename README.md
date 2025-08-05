@@ -51,7 +51,7 @@ Once configured, you'll receive:
 
 Test notifications directly:
 ```bash
-terminal-notifier -title 'Claude Code' -message '= Test notification' -sound 'Glass'
+terminal-notifier -title 'Claude Code' -message 'Test notification' -sound 'Glass'
 ```
 
 Perfect for developers who want to stay productive while Claude handles longer tasks in the background.
